@@ -1,11 +1,74 @@
-# Sample Snack app
+# ☁️ Tempo Agora
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo mobile feito com **React Native + Expo** que simula dados climáticos para cidades brasileiras.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 📱 Sobre o App
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+O **Tempo Agora** apresenta informações de clima de forma visual e intuitiva por meio de cards com:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Temperatura atual 🌡️  
+- Condição geral do tempo ☀️☁️🌧️  
+- Umidade relativa 💧  
+- Velocidade do vento 💨  
+- Botão com link para o site do ClimaTempo
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+A interface é responsiva, moderna e construída com foco em boa usabilidade visual — incluindo **cards com sombra e leve transparência**.
+
+Todos os dados são **simulados localmente**, sem uso de APIs externas.
+
+---
+
+## ▶️ Demonstração Online
+
+Você pode visualizar e testar diretamente no seu navegador ou celular via Expo Snack:
+
+🔗 [Abrir no Expo Snack](https://snack.expo.dev/@fp_bueno/p3dm?platform=ios)
+
+---
+
+## 🚀 Como Executar Localmente
+
+> Requisitos:
+> - Node.js instalado
+> - Expo CLI (`npm install -g expo-cli`)
+
+### Passos:
+
+```bash
+# 1. Instalar dependências
+npm install
+
+# 2. Iniciar o projeto
+npm start
+```
+
+Depois, use o QR Code para abrir o app no **Expo Go** no seu celular (disponível na Play Store/App Store).
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+tempo-agora/
+├── App.js
+├── components/
+│   └── WeatherCard.js
+├── screens/
+│   └── HomeScreen.js
+```
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- React Native
+- Expo
+- React Hooks (`useState`, `useEffect`)
+- Linking API (`Linking.openURL`)
+- Estilização via `StyleSheet`
+
+---
+
+## ✍️ Autor
+
+**Fillipe Pereira Bueno de Almeida**
