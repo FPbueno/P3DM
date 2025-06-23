@@ -12,7 +12,7 @@ O **Tempo Agora** apresenta informações de clima de forma visual e intuitiva p
 - Velocidade do vento 💨  
 - Botão com link para o site do ClimaTempo
 
-A interface é responsiva, moderna e construída com foco em boa usabilidade visual — incluindo **cards com sombra e leve transparência**.
+A interface é responsiva, moderna e construída com foco em boa usabilidade visual — incluindo **cards com sombra**.
 
 Todos os dados são **simulados localmente**, sem uso de APIs externas.
 
